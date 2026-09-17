@@ -1,0 +1,29 @@
+import tomyjerry.*
+
+test "Tom gana energìa al dormir"{
+tom.dormir()
+
+assert.equals(150, tom.energia())
+}
+
+test "Tom atrapa a un quilombero"{
+    tom.atrapaAQuilombero(jerry)
+
+    assert.that(true)
+}
+
+test "càlculo de la velocidad de Jerry"{
+    jerry.cambiarVelocidad()
+
+
+    assert.equals(100, jerry.velocidad())
+}
+
+test "Tom limpia la casa"{
+    tom.limpiarLaCasa()
+
+    assert.equals(-100, casa.suciedad())
+    assert.equals(60, tom.energia())
+
+
+}
